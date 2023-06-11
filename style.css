@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'banda';
+    src: url(./pratica/f25_bank_printer/F25_Bank_Printer.ttf);
+}
+body{
+    font-family: 'banda', serif;
+    background-color: rgb(235, 228, 228);
+    color: rgb(0, 0, 0);
+}
+main{
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.banda-amigos{
+    padding: 20px;
+    list-style-image: url(./correto.png);
+    text-align: center;
+}
+li{
+    /* border: 1px solid black; */
+    
+}
+ul{
+    list-style-position: inside;
+}
+.instrumentos{
+    padding: 20px;
+    list-style-image: url(./pratica/verificado.png);
+    text-align: center;
+}
+ol{
+    list-style-position: inside;
+    
+}
+/* .logo{
+    font-size: 50px;
+    position: fixed;
+    margin-left: 659px;
+} */
+a{
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    align-items: center;
+    /* margin-left: 630px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+a:hover{
+    color: black;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(138, 229, 199);
+}
