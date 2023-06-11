@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'banda';
-    src: url(./pratica/f25_bank_printer/F25_Bank_Printer.ttf);
+    src: url(./F25_Bank_Printer.ttf);
 }
 body{
     font-family: 'banda', serif;
@@ -29,7 +29,7 @@ ul{
 }
 .instrumentos{
     padding: 20px;
-    list-style-image: url(./pratica/verificado.png);
+    list-style-image: url(./verificado.png);
     text-align: center;
 }
 ol{
